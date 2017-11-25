@@ -266,20 +266,25 @@ footer span {
 
 @media (max-width: 767px) {
 
-	// .main-header nav ul {
-	// 	padding-left: 0;
-	// }
+	.main-header nav {
+		margin: 0;
+	}
 
-	// .main-header nav ul li {
-	// 	float: none;
-	// 	display: block;
-	// }
+	.main-header nav ul li {
+		float: none;
+		display: block;
+		width: 100%;
+	}
 
-	// .main-header nav ul li a {
-	// 	text-align: center;
-	// 	padding-top: 10px;
-	// 	padding-bottom: 10px;
-	// }
+	.main-header nav ul li:last-child {
+		margin-bottom: 15px;
+	}
+
+	.main-header nav ul li a {
+		text-align: center;
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
 
 	.main-header__social {
 		display: none;
