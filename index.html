@@ -109,15 +109,18 @@
 					</p>
 				</div>
 				<div class="col-md-5" >
-					<form action="">
+
+
+
+					<form action="mail.php" method="POST">
 						<div class="name">
-							<input type="text" placeholder="Имя">
+							<input type="text" name="user_name" placeholder="Имя">
 						</div>
 						<div class="email">
-							<input type="text" placeholder="Email">
+							<input type="text" name="user_email" placeholder="Email">
 						</div>
 						<div class="question">
-							<textarea type="text" placeholder="Текст вопроса"></textarea>
+							<textarea type="text" name="user_message" placeholder="Текст вопроса"></textarea>
 						</div>
 						<button type="submit">Отправить</button>
 					</form>
