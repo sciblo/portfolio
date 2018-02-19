@@ -314,10 +314,13 @@ footer span {
 
 
 
-
-
+.thanks_block {
+	margin: 0 auto;
+}
 .thanks {
+	margin-top: 80px;
 	font-size: 30px;
+	mb50
 }
 .back {
 	font-size: 16px;
