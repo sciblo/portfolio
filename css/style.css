@@ -310,3 +310,21 @@ footer span {
 		padding-right: 10px;
 	}
 }
+
+
+
+
+
+
+.thanks {
+	font-size: 30px;
+}
+.back {
+	font-size: 16px;
+	background-color: #2196F3;
+	padding: 10px 22px;
+	border-radius: 20px;
+	text-transform: uppercase;
+	color: #fff;
+	text-decoration: none;
+}
